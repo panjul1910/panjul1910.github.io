@@ -1,11 +1,69 @@
 .head-tabel{
 	text-align: center;
-	background-color: lightgray;
-	font-size: 24px;
+	font-size: 20px;
 	color: black;
 	font-family: sans-serif;
 }
 .link{
 	text-decoration: none;
 	color: initial;
+}
+.table-foot{
+	border-radius: 10px;
+}
+.img{
+	width: 64px;
+	height: 64px;
+}
+.card-contact{
+	box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	transition: 0.3s;
+	width: 40%;
+	border-radius: 5px;
+	margin: auto;
+	text-align: center;
+	background-color: #c3c3c3;
+}
+.card-contact:hover{
+	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.card-contact .card-content{
+	padding: 2px 16px;
+}
+.form.contact{
+	width: 100%;
+	margin: auto;
+	padding: 20px;
+	background-color: #c3c3c3;
+	border-radius: 5px;
+	box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 1.0);
+}
+.label-contact{
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+.input-contact[type="text"], .input-contact[type="email"], .textarea-contact{
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 4px;
+	resize: none;
+}
+.input-contact[type="submit"]{
+	width: 80%;
+	background-color: green;
+	color: black;
+	padding: 10px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+}
+.input-contact[type="submit"]:hover{
+	background-color: gray;
 }
