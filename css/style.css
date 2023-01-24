@@ -67,3 +67,7 @@
 .input-contact[type="submit"]:hover{
 	background-color: gray;
 }
+body, html{
+	zoom: 1;
+	transform: scale(1.0);
+}
