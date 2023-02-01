@@ -9,6 +9,10 @@
 	text-decoration: none;
 	color: white;
 }
+.link-plus{
+	text-decoration: none;
+	color: blue;
+}
 .tabel-sosmed{
 	border-radius: 10px;
 	color: white;
@@ -88,4 +92,8 @@ body{
 	transition: 0.25s ease;
 	transform: scale(1.03);
 	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.border-content{
+	border: 2px solid white;
+	border-radius: 5px;
 }
