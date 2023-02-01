@@ -13,7 +13,7 @@
 	border-radius: 10px;
 	color: white;
 }
-.img{
+.icon{
 	width: 64px;
 	height: 64px;
 }
@@ -76,4 +76,16 @@ body{
 }
 .teks{
 	color: white;
+	font-size: 100%;
+}
+.img{
+	width: 95%;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+}
+.goyang:hover{
+	transition: 0.25s ease;
+	transform: scale(1.03);
+	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
 }
