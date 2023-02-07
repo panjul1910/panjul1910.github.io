@@ -82,6 +82,7 @@
 html{
 	width: 720px;
 	margin: auto;
+	display: flex;
 }
 body{
 	margin: auto;
