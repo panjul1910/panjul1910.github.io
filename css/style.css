@@ -11,7 +11,12 @@
 }
 .link-plus{
 	text-decoration: none;
-	color: blue;
+	color: white;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 12px;
 }
 .tabel-sosmed{
 	border-radius: 10px;
@@ -74,9 +79,13 @@
 .input-contact[type="submit"]:hover{
 	background-color: gray;
 }
+html{
+	width: 720px;
+	margin: auto;
+}
 body{
 	margin: auto;
-	width: 720px;
+	width: 100%;
 }
 .teks{
 	color: white;
@@ -94,6 +103,7 @@ body{
 	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
 }
 .border-content{
-	border: 2px solid white;
+	border: 0.5px solid white;
 	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 1.0);
 }
