@@ -6,41 +6,7 @@
   <title>Home</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="shorcut icon" href="img/icon/icon.png">
-  <script type="text/javascript">
-    //disable Right Click
-    document.addEventListener('contextmenu', event => event.preventDefault());
-    //disable F12
-    document.onkeypress = function (event) {
-      event = (event || window.event);
-      if (event.keyCode == 123) {
-    return false;
-    }
-    }
-    document.onmousedown = function (event) {
-    event = (event || window.event);
-    if (event.keyCode == 123) {
-    return false;
-    }
-    }
-    document.onkeydown = function (event) {
-    event = (event || window.event);
-    if (event.keyCode == 123) {
-    return false;
-    }
-    }
-    //disable ctrl+u
-    document.addEventListener('keydown', function(event) {
-    if (event.ctrlKey && event.keyCode === 85) {
-      event.preventDefault()
-    }
-    });
-    //disable ctrl+shift+i
-    document.addEventListener("keydown", function(event) {
-    if (event.ctrlKey && event.shiftKey && event.keyCode === 73) {
-      event.preventDefault();
-    }
-    });
-  </script>
+  <script src="js/script.js"></script>
 </head>
 <body bgcolor="2C74B3">
   <br>
@@ -51,8 +17,6 @@
           <td bgcolor="205295" class="head-tabel"><a href="https://panjul1910.github.io" class="link">&nbsp;Home&nbsp;</a></td>
           <td width="1%"></td>
           <td bgcolor="205295" class="head-tabel"><a href="#sosmed" class="link">&nbsp;Sosmed&nbsp;</a></td>
-          <td width="1%"></td>
-          <td bgcolor="205295" class="head-tabel"><a href="mailto:damarpp6@gmail.com" class="link">&nbsp;Request Film&nbsp;</a></td>
           <td width="1%"></td>
           <td bgcolor="205295" class="head-tabel"><a href="http://bit.ly/3YXBIsd" class="link">&nbsp;Support Me&nbsp;</a></td>
         </table>
