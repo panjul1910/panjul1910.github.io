@@ -31,9 +31,3 @@ document.addEventListener("keydown", function(event) {
     event.preventDefault();
   }
 });
-//generator chat wa
-function generateLink() {
-  var pesan = document.getElementById("pesan").value;
-  var tautan = "https://wa.me/?text=" + encodeURIComponent(pesan);
-  document.getElementById("tautan").innerHTML = '<a href="' + tautan + '">Buka Chat WhatsApp</a>';
-}
