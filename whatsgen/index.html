@@ -7,17 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="js/script.js"></script>
 </head>
-<body>
+<body background="img/bg.jpg">
 	<div class="container">
 		<div class="card">
 			<h2>Chat Wa Generator</h2>
 			<form>
 				<label for="tlp">Nomor Telepon:</label>
-				<br>
-				<input type="text" id="tlp" name="tlp" class="tlp" autocomplete="off">
+				<input type="text" id="tlp" name="tlp" class="tlp" autocomplete="off" placeholder="08XXXXXXXXXX">
 				<br><br>
 				<label for="pesan">Pesan:</label>
-				<br>
 				<textarea name="pesan" id="pesan" class="pesan"></textarea>
 				<br><br>
 				<button type="button" onclick="detectnomor()" class="genbutton">Generate</button>
