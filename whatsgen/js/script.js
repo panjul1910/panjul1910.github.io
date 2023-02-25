@@ -12,7 +12,7 @@ function buatLink() {
 }
 //copy link
 function copy() {
-	var tautan = document.getElementById("tautan").innerText;
+	var tautan = document.getElementById("tautan").innerHTML;
 	if (tautan == "") {
 		alert("Tidak Ada Link Yang Bisa Disalin")
 	}
