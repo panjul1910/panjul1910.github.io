@@ -68,6 +68,12 @@ function detectnomor() {
 		}
 	}
 }
+//clear input
+function clearinput() {
+	var tlp = document.getElementById("tlp").value = "";
+	var pesan = document.getElementById("pesan").value = "";
+	var tautan = document.getElementById("tautan").innerHTML = "";
+}
 //disable Right Click
 document.addEventListener('contextmenu', event => event.preventDefault());
 //disable F12
