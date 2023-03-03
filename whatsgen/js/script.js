@@ -12,14 +12,27 @@ function buatLink() {
 }
 //copy link
 function copy() {
-	var tautan = document.getElementById("tautan").innerHTML;
-	if (tautan == "") {
-		alert("Tidak Ada Link Yang Bisa Disalin")
-	}
-	else{
-		navigator.clipboard.writeText(tautan);
-		alert("Link Sudah Berhasil Di Salin");
-	}
+  var tautan = document.getElementById("tautan").innerHTML;
+  if (tautan == "") {
+    alert("Tidak Ada Link Yang Bisa Disalin")
+  } else {
+    // Membuat elemen textarea baru
+    var tempTextarea = document.createElement("textarea");
+    tempTextarea.value = tautan;
+    document.body.appendChild(tempTextarea);
+    
+    // Memilih teks di elemen textarea
+    tempTextarea.select();
+    tempTextarea.setSelectionRange(0, 99999); /* Untuk perangkat seluler */
+
+    // Menyalin teks ke clipboard
+    document.execCommand("copy");
+
+    // Menghapus elemen textarea
+    document.body.removeChild(tempTextarea);
+
+    alert("Link Sudah Berhasil Di Salin");
+  }
 }
 //mengecek kelengkapan data
 function checkfill() {
