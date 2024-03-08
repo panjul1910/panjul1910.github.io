@@ -1,7 +1,4 @@
-const apiKey = "1f3f7427210b444d8783aba06140ab85";
-const country = "id";
-
-const url = `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${apiKey}`;
+const url = '/news';
 
 const kontenElement = document.querySelector(".konten");
 
