@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+  .form {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(255, 192, 109);
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .form h1 {
+    text-align: center;
+  }
+
+  .form label {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .form input[type="text"] {
+    background-color: rgb(255, 251, 236);
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 90%;
+  }
+
+  .form input[type="password"] {
+    background-color: rgb(255, 251, 236);
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+    width: 90%;
+  }
+
+  .form input[type="submit"] {
+    background-color: rgb(255, 155, 109);
+    border: 1px solid black;
+    font-size: 28px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .form input[type="submit"]:hover {
+    background-color: rgb(255, 145, 0);
+    color: white;
+  }
+
+  .berita {
+    width: 90%;
+  }
+
+  .berita span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .berita-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .berita-item img {
+    border-radius: 8px;
+    width: 20%;
+    height: 20%;
+  }
+
+  .berita-item span {
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
